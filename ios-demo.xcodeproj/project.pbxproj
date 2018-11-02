@@ -12,6 +12,9 @@
 		C2A1E11D218C9E4900D7BF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A1E11B218C9E4900D7BF44 /* Main.storyboard */; };
 		C2A1E11F218C9E4B00D7BF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A1E11E218C9E4B00D7BF44 /* Assets.xcassets */; };
 		C2A1E122218C9E4B00D7BF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A1E120218C9E4B00D7BF44 /* LaunchScreen.storyboard */; };
+		C2A1E12A218CA27200D7BF44 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1E129218CA27200D7BF44 /* TableViewController.swift */; };
+		C2A1E12C218CA96D00D7BF44 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1E12B218CA96D00D7BF44 /* BookModel.swift */; };
+		C2A1E12E218CCDA300D7BF44 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1E12D218CCDA300D7BF44 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C2A1E11E218C9E4B00D7BF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2A1E121218C9E4B00D7BF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2A1E123218C9E4B00D7BF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A1E129218CA27200D7BF44 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C2A1E12B218CA96D00D7BF44 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		C2A1E12D218CCDA300D7BF44 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				C2A1E117218C9E4900D7BF44 /* AppDelegate.swift */,
 				C2A1E119218C9E4900D7BF44 /* ViewController.swift */,
+				C2A1E129218CA27200D7BF44 /* TableViewController.swift */,
+				C2A1E12B218CA96D00D7BF44 /* BookModel.swift */,
 				C2A1E11B218C9E4900D7BF44 /* Main.storyboard */,
 				C2A1E11E218C9E4B00D7BF44 /* Assets.xcassets */,
 				C2A1E120218C9E4B00D7BF44 /* LaunchScreen.storyboard */,
 				C2A1E123218C9E4B00D7BF44 /* Info.plist */,
+				C2A1E12D218CCDA300D7BF44 /* Utility.swift */,
 			);
 			path = "ios-demo";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A1E12E218CCDA300D7BF44 /* Utility.swift in Sources */,
 				C2A1E11A218C9E4900D7BF44 /* ViewController.swift in Sources */,
+				C2A1E12A218CA27200D7BF44 /* TableViewController.swift in Sources */,
+				C2A1E12C218CA96D00D7BF44 /* BookModel.swift in Sources */,
 				C2A1E118218C9E4900D7BF44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
