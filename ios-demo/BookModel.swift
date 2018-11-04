@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
 class Book {
     var title = ""
     var author = ""
-    var imageUrl = ""
+    var description = ""
+    var image: UIImage?
 }
