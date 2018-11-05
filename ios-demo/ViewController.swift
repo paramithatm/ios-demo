@@ -20,12 +20,11 @@ class ViewController: UIViewController {
         if (keywordTF.text == "") {
             buildOKAlert(title: "Search Failed", message: "Please fill the field.", view: self)
         } else {
-            let tableVC = mainSB.instantiateViewController(withIdentifier: "tableVC") as! TableViewController
+            let tableVC = mainSB.instantiateViewController(withIdentifier: "tableVC") as! ResultTableViewController
             tableVC.keyword = keywordTF.text!
             navigationController?.pushViewController(tableVC, animated: true)
         }
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,9 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 class Book {
     var title = ""
     var author = ""
+    var description = ""
+    var genres: [String] = []
     var imageUrl = ""
 }
