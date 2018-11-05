@@ -13,5 +13,6 @@ class Book {
     var title = ""
     var author = ""
     var description = ""
-    var image: UIImage?
+    var genres: [String] = []
+    var imageUrl = ""
 }
